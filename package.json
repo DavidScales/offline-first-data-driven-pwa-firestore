@@ -7,7 +7,6 @@
     "body-parser": "1.17.2",
     "express": "4.15.3",
     "fs": "0.0.1-security",
-    "workbox-background-sync": "2.0.0",
     "workbox-sw": "2.0.0"
   },
   "devDependencies": {
@@ -19,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp && concurrently --kill-others \"gulp watch\" \"node server.js\""
+    "start": "gulp && gulp watch"
   },
   "author": "",
   "license": "ISC"
